@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sanjay Binnar">
+    <meta name="description" content="The official website of Prasadh Restaurant">
+    <title>Prashad Restaurant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./main.js" defer></script>
+    
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Prashad Restaurant</h1>
+
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/prashadhImage4 (1).webp" class="d-block w-100" alt="special dish" >
+              </div>
+              <div class="carousel-item">
+                <img src="img/prashadfrontwebpage3rd (1).webp" class="d-block w-100" alt="special dish">
+              </div>
+              <div class="carousel-item">
+                <img src="img/prashadfrontpage2nd (1).webp" class="d-block w-100" alt="special dish" >
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <main class="main">
+        <article id="menu" class="main__article menu">
+            <h2 class="menu__h2">Our Menu</h2>
+            <table class="menu__container">
+                <caption class="offscreen">Our Dishes</caption>
+       
+                <thead>
+                    <tr>
+                        <th class="menu__header" scope="col">Dishes Name</th>
+                    <th class="menu__header" scope="col">Quantity</th>
+                    <th class="menu__header" scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="menu__item menu__cb" scope="row" rowspan="3">Chole Batore</th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">200rs</td>
+                    </tr>
+                <tr>
+                    <td class="menu__item">2</td>
+                    <td class="menu__item">400rs</td>
+                </tr>
+                <tr>
+                    <td class="menu__item">3</td>
+                    <td class="menu__item">600rs</td>
+                </tr>
+                <th class="menu__item menu__pp" scope="row" rowspan="3">Puran Poli</th>
+                <td class="menu__item">1</td>
+                <td class="menu__item">500rs</td>
+                <tr>
+                    <td class="menu__item">2</td>
+                    <td class="menu__item">1000rs</td>
+                </tr>
+                <tr>
+                    <td class="menu__item">3</td>
+                    <td class="menu__item">1500rs</td>
+                </tr>
+                <th class="menu__item menu__hb" scope="row" rowspan="3">Hydrabadhi Biryani</th>
+                <td class="menu__item">1</td>
+                <td class="menu__item">300rs</td>
+                <tr>
+                <td class="menu__item">2</td>
+                <td class="menu__item">600rs</td>
+                </tr>
+                <tr>
+                    <td class="menu__item">3</td>
+                    <td class="menu__item">900rs</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="menu__item menu__L" colspan="3">Lassi &amp;Chaas masala </td>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">30rs</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p class="center">
+                <a href="#">Back To Top</a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">copyright &copy; <time id="year"></time></span>
+            <span class="nowrap">Prashad Restaurant</span>
+        </p>
+    </footer>
+</body>
+</html>
