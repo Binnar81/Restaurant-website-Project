@@ -35,7 +35,7 @@ npm run dev
    ![test](https://github.com/Binnar81/fetchUserData-webApplication/blob/master/OneDrive/Desktop/MERN/Restaurant%20Website/img/RestaurantHomePage.png)
 
 
- 2) Menu  Page Section:
+ 2) Menu  Page Section
    ![test](https://github.com/Binnar81/fetchUserData-webApplication/blob/master/OneDrive/Desktop/MERN/Restaurant%20Website/img/RestaurantMenuPage.png)
 
  3) Working Hours Page Section:
