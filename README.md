@@ -32,17 +32,17 @@ npm run dev
 
 ## Different Sections of the Project:
  1) Home Section:
-   ![test](https://github.com/Binnar81/fetchUserData-webApplication/blob/master/OneDrive/Desktop/MERN/Restaurant%20Website/img/RestaurantHomePage.png)
+   ![test](https://github.com/Binnar81/RestaurantwebsiteProject/blob/5f2e3285b4f2304a06cacea2f9e237895a30819f/img/RestaurantHomePage.png)
 
 
  2) Menu  Page Section
-   ![test](https://github.com/Binnar81/fetchUserData-webApplication/blob/master/OneDrive/Desktop/MERN/Restaurant%20Website/img/RestaurantMenuPage.png)
+   ![test](https://github.com/Binnar81/RestaurantwebsiteProject/blob/5f2e3285b4f2304a06cacea2f9e237895a30819f/img/RestaurantMenuPage.png)
 
  3) Working Hours Page Section:
-   ![test](https://github.com/Binnar81/fetchUserData-webApplication/blob/master/OneDrive/Desktop/MERN/Restaurant%20Website/img/RestaurantWorkingHoursPage.png)
+   ![test](https://github.com/Binnar81/RestaurantwebsiteProject/blob/5f2e3285b4f2304a06cacea2f9e237895a30819f/img/RestaurantWorkingHoursPage.png)
 
  4) Contact Us Page Section:
-   ![test](https://github.com/Binnar81/fetchUserData-webApplication/blob/master/OneDrive/Desktop/MERN/Restaurant%20Website/img/RestaurantContactUsPage.png)
+   ![test](https://github.com/Binnar81/RestaurantwebsiteProject/blob/5f2e3285b4f2304a06cacea2f9e237895a30819f/img/RestaurantContactUsPage.png)
 
 
  
